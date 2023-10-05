@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  background-color: #f8f9fa;
+  height: 100vh;
+}
+
+.sideBarContainer {
+  padding-top: 44px;
+  flex: 1;
+}
+
+.container {
+  padding: 0px 0px 0px 18px;
+}
+
+.mainContainer {
+  flex: 3;
+}
+
+.selectedButton {
+  border-width: 0px;
+  display: flex;
+  background-color: #fff;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 15px;
+  padding: 12px 16px;
+  align-items: center;
+}
+
+.selectedButton p {
+  padding: 6px 12px;
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.selectedButton div {
+  width: 30px;
+  height: 30px;
+  border-radius: 12px;
+  background-color: #4fd1c5;
+}
+
+.button {
+  border-width: 0px;
+  display: flex;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 15px;
+  padding: 12px 16px;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+.button p {
+  padding: 6px 12px;
+  font-weight: 700;
+  color: #a0aec0;
+}
+
+.button div {
+  width: 30px;
+  height: 30px;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.icon {
+  padding: 7px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tableHeader,
+.tableRow {
+  display: flex;
+  width: 100%;
+}
+
+.firstColumn {
+  flex: 3;
+}
+
+.column {
+  flex: 1;
+}
